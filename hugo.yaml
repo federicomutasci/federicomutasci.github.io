@@ -144,14 +144,14 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/Federico_Mutasci_CV_English.png"
+      url: "/Federico_Mutasci_CV_English.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/federicomutasci
-        - icon: /linkedin.png
+        - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/federico-mutasci
       # customIcons:
       #   - icon: /fav.png
@@ -340,7 +340,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     title: "My works"
     items:
       - title: Example Project
@@ -388,7 +388,22 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
 
-  #Contact
+ 
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Works
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://www.linkedin.com/in/federico-mutasci/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
+
+   #Contact
   contact:
     enable: true
     # title: "Custom Name"
@@ -401,20 +416,6 @@ params:
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
     #   messageRows: 5
-
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: false
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com
-      linkedin: https://www.linkedin.com/in/federico-mutasci/
-      # twitter: https://twitter.com
-      # instagram: https://instagram.com
-      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
