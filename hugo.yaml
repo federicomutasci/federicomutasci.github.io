@@ -135,7 +135,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Federico."
-    subtitle: "PhD Candidate"
+    subtitle: "Doctoral Researcher"
     content: "Universita' degli studi di Milano | Università degli studi di Pavia"
     image: /images/hero.jpg
     bottomImage:
@@ -150,7 +150,9 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
+          url: https://github.com/federicomutasci
+        - icon: fa-linkedin
+          url: https://www.linkedin.com/in/federico-mutasci
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
