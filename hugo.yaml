@@ -169,7 +169,7 @@ params:
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few softwrare programs and programming languages I've been working with recently:"
       items:
         - "R"
         - "Python"
@@ -188,10 +188,10 @@ params:
       - company: "University of Milan | University of Pavia"
         companyUrl: "https://economiaemanagement.dip.unipv.it/it/phd-economics"
         jobs:
-          - name: "Researcher PhD Candidate"
+          - name: "Doctoral Researcher"
             date: "Oct 2022 - present"
             content: |
-              AAAAAAAAA
+              PhD candidate in applied economics: data-driven empirical research, advanced statistical and microeconometric modeling, focus on quantitative analysis.
 
             # info:
             #   content: Working as a senior software developer
@@ -203,12 +203,18 @@ params:
           - name: "Teaching Assistant"
             date: "Sep 2023 - Nov 2025"
             content: |
-              BBBBBBBBB
+              Course in International Trade - Prof. Giorgio Barba Navaretti, final year of master's degree in Economics. Responsible of tutorials, exercise classes and midterm exams.
+              - [My materials]()
+              - [Course page](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/global-firms-and-markets)
+              - [Syllabus](/International_Trade_Syllabus_2025_2026.pdf)
+              - [MSc in Economics and Political Science](https://www.unimi.it/it/corsi/laurea-magistrale/economics-and-political-science-eps)
+
+
 
           - name: "Tutor"
             date: "Sep 2023 - Dec 2025"
             content: |
-              CCCCCCCCC
+               Students' support activities, organization of teaching materials, exam administration.
               
 
       # - company: "Amazon"
