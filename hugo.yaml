@@ -413,7 +413,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/federicomutasci
       linkedin: https://www.linkedin.com/in/federico-mutasci/
       # twitter: https://twitter.com
       # instagram: https://instagram.com
@@ -423,7 +423,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: Feel free to reach out. Whether you have a question or would like to connect, I will do my best to respond promptly.
     btnName: Mail me
     btnLink: mailto:fmutasci@gmail.com
     # formspree:
