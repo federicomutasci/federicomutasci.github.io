@@ -136,7 +136,7 @@ params:
     intro: "Hi, my name is"
     title: "Federico."
     subtitle: "Doctoral Researcher"
-    content: "Universita' degli studi di Milano | Università degli studi di Pavia"
+    content: "Università degli studi di Milano | Università degli studi di Pavia"
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -204,18 +204,16 @@ params:
             date: "Sep 2023 - Nov 2025"
             content: |
               Course in International Trade - Prof. Giorgio Barba Navaretti, final year of master's degree in Economics. Responsible of tutorials, exercise classes and midterm exams.
-              - [My materials]()
+              - [My materials](/International_Trade___Lecture_Notes.pdf)
               - [Course page](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/global-firms-and-markets)
               - [Syllabus](/International_Trade_Syllabus_2025_2026.pdf)
-              - [MSc in Economics and Political Science](https://www.unimi.it/it/corsi/laurea-magistrale/economics-and-political-science-eps)
-
 
 
           - name: "Tutor"
             date: "Sep 2023 - Dec 2025"
             content: |
                Students' support activities, organization of teaching materials, exam administration.
-              
+               - [MSc in Economics and Political Science](https://www.unimi.it/it/corsi/laurea-magistrale/economics-and-political-science-eps)
 
       # - company: "Amazon"
       #   companyUrl: "https://example.com"
@@ -307,11 +305,22 @@ params:
         school:
           name: "University of Milan | University of Pavia"
           url: "https://economiaemanagement.dip.unipv.it/it/phd-economics"
+        date: Oct 2022 - Present
+        content: |
+           PhD Thesis: "Extreme Weather Events and Economic Vulnerability: Micro-evidence from Firms and Households" - Supervisors: Prof. Tommaso Frattini, Prof. Alessandro Olper
+           - Skills acquired: advanced data analysis skills, management and compilation of large datasets, use and analysis of gridded climate data.
+           - Software and programming languages used: R, MATLAB, STATA.
+           
         # GPA: "106 out of 110"
       - title: "Master of Science in Economics (EPS)"
         school:
           name: "University of Milan"
-          url: "https://www.unimi.it"
+          url: "https://www.unimi.it/it/corsi/laurea-magistrale/economics-and-political-science-eps"
+        date: Sep 2019 - July 2022
+        content: |
+         Master's Thesis: "The impact of pollution of Property price evaluation: a spatial approach to hedonic pricing models" - Supervisors: Prof. Fabrizio Iacone and Tommaso Frattini. 
+         - Skills acquired: statistical analysis, econometric analysis, applied economics, geostatistics, data analystics.
+         - Software and programming languages used: Microsoft Excel, eViews, R, QGIS, STATA, Python, JavaScript. 
         GPA: "106 out of 110"
         # featuredLink:
         #   enable: true
@@ -319,7 +328,8 @@ params:
       - title: "Bachelor Degree in Political Science"
         school:
           name: "University of Milan"
-          url: "https://www.unimi.it"
+          url: "https://www.unimi.it/it/corsi/laurea-triennale/scienze-politiche-spo"
+        date: Sep 2015 - July 2019  
         GPA: "110 cum laude out of 110"
 
   # Achievements
