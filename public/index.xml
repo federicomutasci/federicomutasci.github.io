@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Render Math With Mathjax</title>
-      <link>http://localhost:1313/blogs/math/</link>
+      <title>Drought, Floods and Climate Risk</title>
+      <link>http://localhost:1313/blogs/tanzania/</link>
       <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/math/</guid>
+      <guid>http://localhost:1313/blogs/tanzania/</guid>
       <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
     </item>
     <item>
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Temperature and Heat Waves</title>
-      <link>http://localhost:1313/blogs/markdown-syntax/</link>
+      <link>http://localhost:1313/blogs/teamperatureheat/</link>
       <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/markdown-syntax/</guid>
+      <guid>http://localhost:1313/blogs/teamperatureheat/</guid>
       <description>&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <link>http://localhost:1313/blogs/hedonicpricingta/</link>
       <pubDate>Fri, 26 Jul 2019 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/hedonicpricingta/</guid>
-      <description>&lt;p&gt;This is a summary of my first empirical work, my Master&amp;rsquo;s thesis in applied economics: Mutasci, F. (2019). &amp;ldquo;The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models&amp;rdquo;, University of Milan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, showing that, although higher concentration of pullutant particles predicts a drop in property price, the devaluation of houses for sale appears to be mainly confined to the suburban neighborhood called “Tamburi”, located next to the steel mill.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a summary of my first empirical work, my Master&amp;rsquo;s thesis in economics: Mutasci, F. (2019). &amp;ldquo;The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models&amp;rdquo;, University of Milan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, showing that, although higher concentration of pullutant particles predicts a drop in property price, the devaluation of houses for sale appears to be mainly confined to the suburban neighborhood called “Tamburi”, located next to the steel mill.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
