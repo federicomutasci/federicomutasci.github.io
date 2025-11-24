@@ -10,7 +10,7 @@ tags:
   - Applied Miroeconomics 
   - Microeconometrics 
   - Manufacturing
-image: /heatwave.png
+image: /heatwave.jgg
 description: ""
 toc:
 ---
