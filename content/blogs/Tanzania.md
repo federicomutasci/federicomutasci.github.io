@@ -26,3 +26,5 @@ The paper makes use of a rich array of high-granularity and high-frequency (mont
 
 Please feel free to contact [me](mailto:fmutasci@gmail.com) or [Irmak](mailto:igu@econ.ku.dk) for any additional information, clarifications, suggestions, or collaborations.
 
+# References 
+Günal, I. and Mutasci, F. (2025). Household perceptions and responses to climate shocks: Evidence from Tanzania. Working Paper, University of Milan and University of Copenhagen.
