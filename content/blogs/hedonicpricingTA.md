@@ -201,7 +201,7 @@ legal thresholds, only in the Tamburi district.
 | **Wald Test (df = 1)** | 0.865                       | 82.704***        | 33.594***         |
 | **LR Test (df = 1)**   | 0.535                       | 33.749***        | 13.835***         |
 | ---------------------- | --------------------------- | ---------------- | ----------------- |
-| **Note**:  *p<0.1; **p<0.05; ***p<0.01             |  |                  |                   |
+| **Note**:  *p<0.1; **p<0.05; ***p<0.01               |                  |                  |                   |
 
 It therefore appears that, although an increase in particulate pollution may predict a decrease in property prices (even controlling for hedonic, socio-environmental characteristics and spatial autocorrelation), the problem of real estate depreciation is mainly an issue linked to the Tamburi district, located in the immediate vicinity of the steelworks. This neighborhood appears to be the most affected by all the negative externalities of nearby industrial activities (Francesca, et al., 2012; ANSA, 2022).
 
