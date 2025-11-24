@@ -186,7 +186,7 @@ params:
     # title: "Custom Name"
     items:
       - company: "University of Milan | University of Pavia"
-        companyUrl: "https://economiaemanagement.dip.unipv.it/it/phd-economics"
+        companyUrl: "https://phdeconomics.unimi.it"
         jobs:
           - name: "Doctoral Researcher"
             date: "Oct 2022 - present"
