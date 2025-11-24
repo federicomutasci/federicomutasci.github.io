@@ -1,145 +1,30 @@
 ---
-title: "Temperature and Heat Waves"
-date: 2021-04-03T23:29:21+05:30
+title: "Temperature, Heat Waves and Industrial Production"
+date: 2025-06-18T23:29:21+05:30
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+# github_link: "https://github.com/gurusabarish/hugo-profile"
+author: "Federico Mutasci"
 tags:
-  - Markdown syntax
-  - Sample
-  - example
+  - Environmental Economics
+  - Industrial Organization
+  - Applied Miroeconomics 
+  - Microeconometrics 
+  - Manufacturing
 image: /heatwave.png
 description: ""
 toc:
 ---
 
-## Paragraph
+In my single-author job market paper - which is currently unpublished and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+The paper uses a panel dataset of georeferenced balance sheet information from hundreds of thousands of Italian manufacturing companies, combined with high-resolution daily climate data. Using this large dataset, I estimate the immediate and long-term effects that rising temperatures and intense heat waves have on the output, productivity, and input usage of manufacturing companies, thanks to dynamic microeconometric models. The paper is well suited to identifying structural vulnerabilities and policy instruments that can guide climate change adaptation strategies.
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+I also engage in a series of heterogeneity analyses (e.g., for sub-industries, company characteristics, and work organization) of climate impacts, and I estimate future impacts of rising temperatures on output and productivity, up to 2065, working on different climate change simulations (with varying degrees of severity).
 
-## Blockquotes
+The research was carried out almost entirely in R. Although the paper has not yet been published, I am more than happy to discuss the results and implications of my findings, present my work, or collaborate on related projects.
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+Please feel free to [contact me](mailto:fmutasci@gmail.com) for any further information.
 
-### Blockquote without attribution
+# References 
+Mutasci, F. (2025). The Impact of Temperature and Heat Waves on Italian Manufacturing Firms. Working paper, Universities of Milan and Pavia.
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
-
-### Inline Markdown within tables
-
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
-
-## Code Blocks
-
-### Code block with backticks
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
-
-### Code block indented with four spaces
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-### Code block with Hugo's internal highlight shortcode
-
-{{< highlight html >}}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
-
-## List Types
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- List item
-- Another item
-- And another item
-
-### Nested list
-
-- Item
-  1. First Sub-item
-  2. Second Sub-item
-
-## Headings
-
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.

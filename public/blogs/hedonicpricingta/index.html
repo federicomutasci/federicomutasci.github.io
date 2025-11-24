@@ -30,7 +30,7 @@
 
 <meta property="og:url" content="http://localhost:1313/blogs/hedonicpricingta/">
   <meta property="og:site_name" content="Federico Mutasci">
-  <meta property="og:title" content="Pollution and Real Estate">
+  <meta property="og:title" content="Pollution and Real Estate Devaluation">
   <meta property="og:description" content="This is a summary of my first empirical work, my Master’s thesis in economics: Mutasci, F. (2019). “The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models”, University of Milan.
 Summary The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, showing that, although higher concentration of pullutant particles predicts a drop in property price, the devaluation of houses for sale appears to be mainly confined to the suburban neighborhood called “Tamburi”, located next to the steel mill.">
   <meta property="og:locale" content="en_us">
@@ -45,7 +45,7 @@ Summary The purpose of the study is to investigate one of the problems affecting
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Pollution and Real Estate">
+  <meta name="twitter:title" content="Pollution and Real Estate Devaluation">
   <meta name="twitter:description" content="This is a summary of my first empirical work, my Master’s thesis in economics: Mutasci, F. (2019). “The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models”, University of Milan.
 Summary The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, showing that, although higher concentration of pullutant particles predicts a drop in property price, the devaluation of houses for sale appears to be mainly confined to the suburban neighborhood called “Tamburi”, located next to the steel mill.">
 
@@ -122,7 +122,7 @@ Summary The purpose of the study is to investigate one of the problems affecting
   
 
   <title>
-Pollution and Real Estate | Federico Mutasci
+Pollution and Real Estate Devaluation | Federico Mutasci
 
   </title>
 </head>
@@ -297,7 +297,7 @@ Pollution and Real Estate | Federico Mutasci
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">Pollution and Real Estate</h1>
+            <h1 class="text-center mb-4">Pollution and Real Estate Devaluation</h1>
             <div class="text-center">
               
                 Federico Mutasci
@@ -310,7 +310,7 @@ Pollution and Real Estate | Federico Mutasci
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/ilva.jpg" alt="Pollution and Real Estate">
+            <img class="img-fluid mx-auto d-block" src="/ilva.jpg" alt="Pollution and Real Estate Devaluation">
           </div>
           
           <article class="page-content  p-2">
@@ -323,15 +323,15 @@ Pollution and Real Estate | Federico Mutasci
 <h2 id="project-description">Project Description</h2>
 <h3 id="data-collection-and-compilation-of-the-dataset">Data Collection and Compilation of the Dataset</h3>
 <p>The study makes use of a cross-sectional dataset of houses for sale in the city of Taranto and the neighboring municipality of Statte (which was part of the municipal territory until June 1992), with all observations being geolocated and provided with a set of their characteristics (location, size, number of rooms, energy efficiency class etc.). The working dataset was compiled by:</p>
-<p>a) Estimating the concentration of PM10 polluting particles in the air (\(P_{xy}\), mostly caused by industrial activity) over the area of analysis, performing an Inverse Distance Weighted (IDW) Interpolation (Shepard, 1968; Mesnard, 2011; Gimond, 2022) of pollution levels recorded at ARPA monitoring stations (ARPA Puglia; ASL Puglia; AReSS Puglia, 2021):</p>
+<p><em>a)</em> Estimating the concentration of PM10 polluting particles in the air (\(P_{xy}\), mostly caused by industrial activity) over the area of analysis, performing an Inverse Distance Weighted (IDW) Interpolation (Shepard, 1968; Mesnard, 2011; Gimond, 2022) of pollution levels recorded at ARPA monitoring stations (ARPA Puglia; ASL Puglia; AReSS Puglia, 2021):</p>
 <p>$$
 P_{xy} = \frac{\sum_{i=1}^n w_i p_i}{\sum_{i=1}^n w_i}
 $$</p>
 <p>\(𝑥, 𝑦\) being longitude and latitude of each point \(𝑖\), \(𝑤_𝑖 = |𝑥𝑦_{−𝑖} − 𝑥𝑦_𝑖|^{−𝛼} \) being the inverse of the distance, weighted for the inverse distance power \(𝛼 \geq 0  \) (here \(𝛼 = 2\) as QGIS default settings). The recorded amount of PM10 polluting particles is taken as the mean annual averages from 2016 to 2019, before and after the sale of the steel plant from the previous management of Riva Group to ArcelorMittal. This method of handling the data on pollution also allows to rule out the year-specific biases in the measurements due to particular weather conditions, such as Sahara sandstorms.</p>
-<p>b) Computing a sub-local measure of the percentage of residents with a university degree making use
+<p><em>b)</em> Computing a sub-local measure of the percentage of residents with a university degree making use
 of ISTAT census datasets, to be used as an proxy of the socioeconomic conditions of
 neighborhoods.</p>
-<p>c) Collecting a random sample of 428 houses for sale in Taranto with respective characteristics (to be used as hedonic price prectors) from sales advertisements on the websites of the real estate
+<p><em>c)</em> Collecting a random sample of 428 houses for sale in Taranto with respective characteristics (to be used as hedonic price prectors) from sales advertisements on the websites of the real estate
 agencies.</p>
 <p>Each house was geolocated with a pair of coordinates derived from the address mentioned in sales advertisements. The location of the houses was used to compute the distance of each observation from the city center and from the steel mill (also treated as determinants of selling prices), and hence to match each house with (I) the estimated PM10 levels in the location, (II) the percentage of residents with a university degree in the area of the building.</p>
 <figure style="text-align:center;">
@@ -340,9 +340,9 @@ agencies.</p>
 </figure>
 <h3 id="preliminary-analyses">Preliminary Analyses</h3>
 <p>The existence of some kind of nexus between industrial-related pollution/proximity to the industrial district and real estate is roughly identified through various data visualization tools. A first correlation emerges in the scatterplots of Figure 2 between the logarithm of house prices and:<br>
-a) The the distance of the houses from the former ILVA (taken as a logarithm to capture
+<em>a)</em> The the distance of the houses from the former ILVA (taken as a logarithm to capture
 nonlinearity)
-b) Average estimated levels of PM10 polluting particles in the position of each one of the houses for sale of the working dataset</p>
+<em>b)</em> Average estimated levels of PM10 polluting particles in the position of each one of the houses for sale of the working dataset</p>
 <p>The point clouds in Figure 2 seem to descriptively highlight two clusters of distributions. There is a split between the distribution of the prices of houses for sale at high PM10 levels (set as above 23 μg/m3, still below the legal limit threshold of 50 μg/m3) – with prices falling with higher levels of pollution – and that of houses for sale interested by lower average pollution levels. A second, considerably more noticeable family of clusters appears to involve a split between houses that are within 2.7 kilometers - i.e., within the distance where the Tamburi neighborhood is located- from the ex-ILVA steel mill (with lower average prices) and all others. Creating dummy variable that divides the houses located in the Tamburi district from those in the rest of the city, it is in fact possible to show in the Boxplots two distinct price bands, with houses for sale in the Tamburi neighborhood having both lower average prices and a lower price range.</p>
 <figure style="text-align:center;">
   <img src="/scatter.png" alt="Sample" width="500px"/>
@@ -393,10 +393,10 @@ $$</p>
 <p>y being a vector of house prices, 𝑋 a vector of predictors of prices, 𝛽 the coefficient that measures the effect of changes in the value predictors on the dependent variable, 𝜌,𝜆 the coefficients of spatial autocorrelation and spatial disturbance respectively. The term 𝑒 is the vector of non-systematic errors.</p>
 <h3 id="results">Results</h3>
 <p>Three preliminary specifications of SAR and SEM models were estimated in Tables 1 and 2:</p>
-<p>a) Models SAR 1.1 and SEM 2.1, in which main predictor of interest is the level of PM10 pollutant particles</p>
-<p>b) Models SAR 1.3 and SEM 2.3, in which the dummy variable of the Tamburi district
+<p><em>a)</em> Models SAR 1.1 and SEM 2.1, in which main predictor of interest is the level of PM10 pollutant particles</p>
+<p><em>b)</em> Models SAR 1.3 and SEM 2.3, in which the dummy variable of the Tamburi district
 (neighborhood-specific proxy of the proximity to the steel mill) is used instead, and</p>
-<p>c) Models SAR 1.2 and SEM 2.2, two control models in which neither of the previous two predictors
+<p><em>c)</em> Models SAR 1.2 and SEM 2.2, two control models in which neither of the previous two predictors
 is included, with an additional geolocation variable (distance from the city center), to check
 whether the magnitude of the spatial autocorrelation and spatial disturbance coefficients
 changes once none of the effects of the predictors related to the presence of the ex-ILVA steel
@@ -893,24 +893,20 @@ Yusufa, A. A., &amp; Resosudarmo, B. P. (2009). Does clean air matter in develop
                 
                 <div class="card-header">
                     <a href="/blogs/tanzania/">
-                        <img src="/images/mathjax.png" class="card-img-top" alt="Drought, Floods and Climate Risk">
+                        <img src="/flood.jpg" class="card-img-top" alt="Drought, Floods and Climate Risk in Developing Economies">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/tanzania/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Drought, Floods and Climate Risk">Drought, Floods and …</h5>
+                        <h5 class="card-title bg-transparent" title="Drought, Floods and Climate Risk in Developing Economies">Drought, Floods and …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><h2 id="mathjax">Mathjax</h2>
-<p>Math equations can be rendered using <a href="https://www.mathjax.org">Mathjax</a> syntax with AMS symbol support.</p>
-<p>Optionally enable this on a per-page basis by adding <code>mathjax: true</code> to your frontmatter.</p>
-<p>Then, use <code>$$ ... $$</code> on a line by itself to render a block equation:</p>
-<p>$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p></p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Dec 9, 2022</span>
+                    <span class="float-start">Nov 24, 2025</span>
                     <a href="/blogs/tanzania/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
@@ -921,21 +917,21 @@ Yusufa, A. A., &amp; Resosudarmo, B. P. (2009). Does clean air matter in develop
                 
                 <div class="card-header">
                     <a href="/blogs/teamperatureheat/">
-                        <img src="/heatwave.png" class="card-img-top" alt="Temperature and Heat Waves">
+                        <img src="/heatwave.png" class="card-img-top" alt="Temperature, Heat Waves and Industrial Production">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/teamperatureheat/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Temperature and Heat Waves">Temperature and Heat …</h5>
+                        <h5 class="card-title bg-transparent" title="Temperature, Heat Waves and Industrial Production">Temperature, Heat Waves …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p></p>
+                        <p><p>In my single-author job market paper - which is currently unpublished and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.</p>
+<p>The paper uses a panel dataset of georeferenced balance sheet information from …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">Apr 3, 2021</span>
+                    <span class="float-start">Jun 18, 2025</span>
                     <a href="/blogs/teamperatureheat/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
@@ -946,13 +942,13 @@ Yusufa, A. A., &amp; Resosudarmo, B. P. (2009). Does clean air matter in develop
                 
                 <div class="card-header">
                     <a href="/blogs/hedonicpricingta/">
-                        <img src="/ilva.jpg" class="card-img-top" alt="Pollution and Real Estate">
+                        <img src="/ilva.jpg" class="card-img-top" alt="Pollution and Real Estate Devaluation">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/hedonicpricingta/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Pollution and Real Estate">Pollution and Real Estate</h5>
+                        <h5 class="card-title bg-transparent" title="Pollution and Real Estate Devaluation">Pollution and Real Estate …</h5>
                     </a>
                     <div class="card-text secondary-font">
                         <p><p>This is a summary of my first empirical work, my Master&rsquo;s thesis in economics: Mutasci, F. (2019). &ldquo;The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models&rdquo;, University of Milan.</p>

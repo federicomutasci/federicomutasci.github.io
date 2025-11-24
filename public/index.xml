@@ -6,14 +6,21 @@
     <description>Recent content on Federico Mutasci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 19:53:33 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Drought, Floods and Climate Risk</title>
+      <title>Drought, Floods and Climate Risk in Developing Economies</title>
       <link>http://localhost:1313/blogs/tanzania/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <pubDate>Mon, 24 Nov 2025 19:53:33 +0530</pubDate>
       <guid>http://localhost:1313/blogs/tanzania/</guid>
-      <description>&lt;h2 id=&#34;mathjax&#34;&gt;Mathjax&lt;/h2&gt;&#xA;&lt;p&gt;Math equations can be rendered using &lt;a href=&#34;https://www.mathjax.org&#34;&gt;Mathjax&lt;/a&gt; syntax with AMS symbol support.&lt;/p&gt;&#xA;&lt;p&gt;Optionally enable this on a per-page basis by adding &lt;code&gt;mathjax: true&lt;/code&gt; to your frontmatter.&lt;/p&gt;&#xA;&lt;p&gt;Then, use &lt;code&gt;$$ ... $$&lt;/code&gt; on a line by itself to render a block equation:&lt;/p&gt;&#xA;&lt;p&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&lt;/p&gt;&#xA;&lt;p&gt;The raw version is:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Write in-line equations with &lt;code&gt;\\( ... \\)&lt;/code&gt; , like \( x^n / y \) . It&amp;rsquo;s easy!&lt;/p&gt;</description>
+      <description></description>
+    </item>
+    <item>
+      <title>Temperature, Heat Waves and Industrial Production</title>
+      <link>http://localhost:1313/blogs/teamperatureheat/</link>
+      <pubDate>Wed, 18 Jun 2025 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/teamperatureheat/</guid>
+      <description>&lt;p&gt;In my single-author job market paper - which is currently unpublished and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.&lt;/p&gt;&#xA;&lt;p&gt;The paper uses a panel dataset of georeferenced balance sheet information from hundreds of thousands of Italian manufacturing companies, combined with high-resolution daily climate data. Using this large dataset, I estimate the immediate and long-term effects that rising temperatures and intense heat waves have on the output, productivity, and input usage of manufacturing companies, thanks to dynamic microeconometric models. The paper is well suited to identifying structural vulnerabilities and policy instruments that can guide climate change adaptation strategies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Gallery</title>
@@ -23,14 +30,7 @@
       <description></description>
     </item>
     <item>
-      <title>Temperature and Heat Waves</title>
-      <link>http://localhost:1313/blogs/teamperatureheat/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/teamperatureheat/</guid>
-      <description>&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pollution and Real Estate</title>
+      <title>Pollution and Real Estate Devaluation</title>
       <link>http://localhost:1313/blogs/hedonicpricingta/</link>
       <pubDate>Fri, 26 Jul 2019 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/hedonicpricingta/</guid>

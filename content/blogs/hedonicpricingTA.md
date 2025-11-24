@@ -1,5 +1,5 @@
 ---
-title: "Pollution and Real Estate"
+title: "Pollution and Real Estate Devaluation"
 date: 2019-07-26T22:53:58+05:30
 draft: false
 # github_link: "https://github.com/gurusabarish/hugo-profile"
@@ -29,7 +29,7 @@ The topic of the research in the master’s thesis is part of a heated debate on
 ### Data Collection and Compilation of the Dataset
 The study makes use of a cross-sectional dataset of houses for sale in the city of Taranto and the neighboring municipality of Statte (which was part of the municipal territory until June 1992), with all observations being geolocated and provided with a set of their characteristics (location, size, number of rooms, energy efficiency class etc.). The working dataset was compiled by:
 
-a) Estimating the concentration of PM10 polluting particles in the air (\\(P_{xy}\\), mostly caused by industrial activity) over the area of analysis, performing an Inverse Distance Weighted (IDW) Interpolation (Shepard, 1968; Mesnard, 2011; Gimond, 2022) of pollution levels recorded at ARPA monitoring stations (ARPA Puglia; ASL Puglia; AReSS Puglia, 2021):
+*a)* Estimating the concentration of PM10 polluting particles in the air (\\(P_{xy}\\), mostly caused by industrial activity) over the area of analysis, performing an Inverse Distance Weighted (IDW) Interpolation (Shepard, 1968; Mesnard, 2011; Gimond, 2022) of pollution levels recorded at ARPA monitoring stations (ARPA Puglia; ASL Puglia; AReSS Puglia, 2021):
 
 $$
 P_{xy} = \frac{\sum_{i=1}^n w_i p_i}{\sum_{i=1}^n w_i}
@@ -37,11 +37,11 @@ $$
 
 \\(𝑥, 𝑦\\) being longitude and latitude of each point \\(𝑖\\), \\(𝑤_𝑖 = |𝑥𝑦_{−𝑖} − 𝑥𝑦_𝑖|^{−𝛼} \\) being the inverse of the distance, weighted for the inverse distance power \\(𝛼 \geq 0  \\) (here \\(𝛼 = 2\\) as QGIS default settings). The recorded amount of PM10 polluting particles is taken as the mean annual averages from 2016 to 2019, before and after the sale of the steel plant from the previous management of Riva Group to ArcelorMittal. This method of handling the data on pollution also allows to rule out the year-specific biases in the measurements due to particular weather conditions, such as Sahara sandstorms.
 
-b) Computing a sub-local measure of the percentage of residents with a university degree making use 
+*b)* Computing a sub-local measure of the percentage of residents with a university degree making use 
 of ISTAT census datasets, to be used as an proxy of the socioeconomic conditions of 
 neighborhoods. 
 
-c) Collecting a random sample of 428 houses for sale in Taranto with respective characteristics (to be used as hedonic price prectors) from sales advertisements on the websites of the real estate 
+*c)* Collecting a random sample of 428 houses for sale in Taranto with respective characteristics (to be used as hedonic price prectors) from sales advertisements on the websites of the real estate 
 agencies.
 
 Each house was geolocated with a pair of coordinates derived from the address mentioned in sales advertisements. The location of the houses was used to compute the distance of each observation from the city center and from the steel mill (also treated as determinants of selling prices), and hence to match each house with (I) the estimated PM10 levels in the location, (II) the percentage of residents with a university degree in the area of the building.
@@ -54,9 +54,9 @@ Each house was geolocated with a pair of coordinates derived from the address me
 
 ### Preliminary Analyses
 The existence of some kind of nexus between industrial-related pollution/proximity to the industrial district and real estate is roughly identified through various data visualization tools. A first correlation emerges in the scatterplots of Figure 2 between the logarithm of house prices and:  
-a) The the distance of the houses from the former ILVA (taken as a logarithm to capture 
+*a)* The the distance of the houses from the former ILVA (taken as a logarithm to capture 
 nonlinearity) 
-b) Average estimated levels of PM10 polluting particles in the position of each one of the houses for sale of the working dataset
+*b)* Average estimated levels of PM10 polluting particles in the position of each one of the houses for sale of the working dataset
 
 The point clouds in Figure 2 seem to descriptively highlight two clusters of distributions. There is a split between the distribution of the prices of houses for sale at high PM10 levels (set as above 23 μg/m3, still below the legal limit threshold of 50 μg/m3) – with prices falling with higher levels of pollution – and that of houses for sale interested by lower average pollution levels. A second, considerably more noticeable family of clusters appears to involve a split between houses that are within 2.7 kilometers - i.e., within the distance where the Tamburi neighborhood is located- from the ex-ILVA steel mill (with lower average prices) and all others. Creating dummy variable that divides the houses located in the Tamburi district from those in the rest of the city, it is in fact possible to show in the Boxplots two distinct price bands, with houses for sale in the Tamburi neighborhood having both lower average prices and a lower price range.
 
@@ -125,12 +125,12 @@ y being a vector of house prices, 𝑋 a vector of predictors of prices, 𝛽 th
 ### Results 
 Three preliminary specifications of SAR and SEM models were estimated in Tables 1 and 2: 
 
-a) Models SAR 1.1 and SEM 2.1, in which main predictor of interest is the level of PM10 pollutant particles 
+*a)* Models SAR 1.1 and SEM 2.1, in which main predictor of interest is the level of PM10 pollutant particles 
 
-b) Models SAR 1.3 and SEM 2.3, in which the dummy variable of the Tamburi district 
+*b)* Models SAR 1.3 and SEM 2.3, in which the dummy variable of the Tamburi district 
 (neighborhood-specific proxy of the proximity to the steel mill) is used instead, and  
 
-c) Models SAR 1.2 and SEM 2.2, two control models in which neither of the previous two predictors 
+*c)* Models SAR 1.2 and SEM 2.2, two control models in which neither of the previous two predictors 
 is included, with an additional geolocation variable (distance from the city center), to check 
 whether the magnitude of the spatial autocorrelation and spatial disturbance coefficients 
 changes once none of the effects of the predictors related to the presence of the ex-ILVA steel 
