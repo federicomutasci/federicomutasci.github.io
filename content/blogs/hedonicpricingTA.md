@@ -9,7 +9,7 @@ tags:
   - Real Estate
   - Spatial Econometrics
   - Geospatial Analysis 
-image: /ilva.png
+image: /ilva.jpg
 description: ""
 toc: true
 mathjax: true
