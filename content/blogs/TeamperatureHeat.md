@@ -15,7 +15,7 @@ description: ""
 toc:
 ---
 
-In my single-author job market paper - which is currently unpublished and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.
+In a single-author work - which is currently a working paper and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.
 
 The paper uses a panel dataset of georeferenced balance sheet information from hundreds of thousands of Italian manufacturing companies, combined with high-resolution daily climate data. Using this large dataset, I estimate the immediate and long-term effects that rising temperatures and intense heat waves have on the output, productivity, and input usage of manufacturing companies, thanks to dynamic microeconometric models. The paper is well suited to identifying structural vulnerabilities and policy instruments that can guide climate change adaptation strategies.
 
