@@ -60,7 +60,7 @@ markup:
 
 params:
   title: "Fedrico Mutasci"
-  description: Text about my cool site
+  description: Personal website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
