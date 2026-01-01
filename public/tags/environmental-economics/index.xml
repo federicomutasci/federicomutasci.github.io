@@ -6,14 +6,28 @@
     <description>Recent content in Environmental Economics on Federico Mutasci</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jul 2019 22:53:58 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 19:53:33 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/environmental-economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pollution and Real Estate</title>
+      <title>Drought, Floods and Climate Risk in Developing Economies</title>
+      <link>http://localhost:1313/blogs/tanzania/</link>
+      <pubDate>Mon, 24 Nov 2025 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/tanzania/</guid>
+      <description>&lt;p&gt;Together with my co-author Irmak Gunal, I have also worked on climate risk in developing contexts. A recent working paper, presented at the SITES 10th Annual Conference in Rome, explores the link between biases in the perception of extreme weather events (particularly droughts and floods) and gaps in adaptation to climate change.&lt;/p&gt;&#xA;&lt;p&gt;In this study—which sits at the intersection of environmental economics, development economics, and behavioral economics—we make use of a rich panel survey collected in Tanzania, following a representative sample of households over time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temperature, Heat Waves and Industrial Production</title>
+      <link>http://localhost:1313/blogs/teamperatureheat/</link>
+      <pubDate>Wed, 18 Jun 2025 23:29:21 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/teamperatureheat/</guid>
+      <description>&lt;p&gt;In a single-author work - which is currently a working paper and part of my PhD thesis - I undertake an extensive and granular analysis of the impact of climate change on the Italian manufacturing sector.&lt;/p&gt;&#xA;&lt;p&gt;The paper uses a panel dataset of georeferenced balance sheet information from hundreds of thousands of Italian manufacturing companies, combined with high-resolution daily climate data. Using this large dataset, I estimate the immediate and long-term effects that rising temperatures and intense heat waves have on the output, productivity, and input usage of manufacturing companies, thanks to dynamic microeconometric models. The paper is well suited to identifying structural vulnerabilities and policy instruments that can guide climate change adaptation strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pollution and Real Estate Devaluation</title>
       <link>http://localhost:1313/blogs/hedonicpricingta/</link>
       <pubDate>Fri, 26 Jul 2019 22:53:58 +0530</pubDate>
       <guid>http://localhost:1313/blogs/hedonicpricingta/</guid>
-      <description>&lt;p&gt;This is a summary of my first empirical work, my Master&amp;rsquo;s thesis in applied economics: Mutasci, F. (2019). &amp;ldquo;The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models&amp;rdquo;, University of Milan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, demonstrating that the devaluation of homes for sale appears to be mainly related to the suburban neighborhood called “Tamburi”, located next to the steel mill.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a summary of my first empirical work, my Master&amp;rsquo;s thesis in economics: Mutasci, F. (2019). &amp;ldquo;The Impact of Pollution on Property Price Evaluation: A Spatial Approach to Hedonic Pricing Models&amp;rdquo;, University of Milan.&lt;/p&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of the study is to investigate one of the problems affecting the economy of the city of Taranto, namely the possibility that the deposit of polluting particulate matter (PM10) related to the presence of the former ILVA\ArcelorMittal steelworks exacerbates the decline in property values in working-class neighborhoods. The study uses a set of geolocated data on houses for sale with corresponding hedonic characteristics, including pollution levels estimated using IDW interpolation of ARPA weather station samples, controlling for socioeconomic variables. The research design enriches classic hedonic pricing models through the use of spatial lag matrices, estimating SAR and SEM models with the maximum likelihood method, showing that, although higher concentration of pullutant particles predicts a drop in property price, the devaluation of houses for sale appears to be mainly confined to the suburban neighborhood called “Tamburi”, located next to the steel mill.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

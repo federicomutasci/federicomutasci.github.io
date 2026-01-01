@@ -2,38 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <loc>http://localhost:1313/tags/behabioral-economics/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/development-economics/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/tanzania/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/environmental-economics/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown-syntax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mathjax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/math/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <loc>http://localhost:1313/tags/sub-saharian-africa/</loc>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
+    <lastmod>2025-11-24T19:53:33+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/applied-miroeconomics/</loc>
+    <lastmod>2025-06-18T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/industrial-organization/</loc>
+    <lastmod>2025-06-18T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/manufacturing/</loc>
+    <lastmod>2025-06-18T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/microeconometrics/</loc>
+    <lastmod>2025-06-18T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/teamperatureheat/</loc>
+    <lastmod>2025-06-18T23:29:21+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/sample/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/markdown-syntax/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/environmental-economics/</loc>
-    <lastmod>2019-07-26T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/geospatial-analysis/</loc>
     <lastmod>2019-07-26T22:53:58+05:30</lastmod>
