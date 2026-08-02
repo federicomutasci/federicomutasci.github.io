@@ -163,7 +163,7 @@ params:
     title: "About Me"
     # image: "/images/me.png"
     content: |-
-      Researcher in environmental economics, behavioral economics, development economics, and industrial
+      Internal Auditor at Protiviti. Former researcher in environmental economics, behavioral economics, development economics, and industrial
       organization. Passionate about statistics and data analysis. Motivated to learn and grow in any intellectually
       stimulating environment.
 
@@ -171,6 +171,7 @@ params:
       enable: true
       title: "Here are a few softwrare programs and programming languages I've been working with recently:"
       items:
+        - "Data Anlytics tools (Excel, Power BI)"
         - "R"
         - "Python"
         - "SQL"
@@ -185,11 +186,18 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+     - company: "Protiviti"
+        companyUrl: "https://www.protiviti.com/it-it"
+        jobs:
+          - name: "Internal Auditor"
+            date: "March 2026 - present"
+            content: |
+             Performed internal audit engagements involving data analytics, operational and financial reviews, project and entity-level assessments, and fraud risk assessments to support the evaluation and mitigation of business risks.
       - company: "University of Milan | University of Pavia"
         companyUrl: "https://phdeconomics.unimi.it"
         jobs:
           - name: "Doctoral Researcher"
-            date: "Oct 2022 - present"
+            date: "Oct 2022 - Sep 2026"
             content: |
               PhD candidate in applied economics: data-driven empirical research, advanced statistical and microeconometric modeling, focus on quantitative analysis.
 
