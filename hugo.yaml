@@ -135,8 +135,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Federico."
-    subtitle: "Doctoral Researcher"
-    content: "Università degli studi di Milano | Università degli studi di Pavia"
+    subtitle: "Internal Auditor & PhD in Economics"
+    content: "Protiviti"
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -162,7 +162,7 @@ params:
     enable: true
     title: "About Me"
     # image: "/images/me.png"
-    content: |-
+    content: |
       Internal Auditor at Protiviti. Former researcher in environmental economics, behavioral economics, development economics, and industrial
       organization. Passionate about statistics and data analysis. Motivated to learn and grow in any intellectually
       stimulating environment.
