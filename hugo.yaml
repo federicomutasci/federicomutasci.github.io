@@ -186,7 +186,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-     - company: "Protiviti"
+      - company: "Protiviti"
         companyUrl: "https://www.protiviti.com/it-it"
         jobs:
           - name: "Internal Auditor"
